@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ThreadNova</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f5f5f5;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header {
+      padding: 30px 0 10px;
+    }
+    .logo {
+      width: 120px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    .product {
+      margin: 30px auto;
+      max-width: 600px;
+    }
+    .hoodie {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+    .shop-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ff5c5c;
+      color: white;
+      border: none;
+      border-radius: 30px;
+      font-size: 1em;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .shop-button:hover {
+      background: #e14b4b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="threadnova-logo.png" alt="ThreadNova Logo" class="logo" />
+    <h1>ThreadNova</h1>
+    <p>Where Style Meets Innovation</p>
+  </header>
+
+  <div class="product">
+    <img src="hoodie-threadnova.png" alt="ThreadNova Hoodie" class="hoodie" />
+    <a href="#" class="shop-button">Shop Now</a>
+  </div>
+</body>
+</html>
